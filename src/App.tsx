@@ -1,4 +1,5 @@
 import React, { useState, useEffect, useRef, FormEvent, MouseEvent } from 'react';
+import { SpendPointsChart } from './components/SpendPointsChart';
 import {
   ShoppingBag,
   Sparkles,
@@ -1892,6 +1893,9 @@ export default function App() {
                   <span className="text-base text-[#FAF8F5] font-sans font-bold">₹{userProfile.spendPoints.toLocaleString('en-IN')}</span>
                 </div>
               </div>
+
+              {/* Dynamic Ledger Chart */}
+              <SpendPointsChart currentPoints={userProfile.spendPoints} />
 
               {/* Main Custom Tailoring Size Parameters Editor Form */}
               <div className="space-y-4">
