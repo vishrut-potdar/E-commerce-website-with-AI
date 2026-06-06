@@ -1,0 +1,6 @@
+{
+  "name": "Atelier: Premium Fashion House",
+  "description": "An interactive, ultra-premium fashion boutique website featuring curated custom premium apparel for men and women, featuring bespoke material customizations, dynamic spotlight highlights, and detailed pricing breakdown.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
